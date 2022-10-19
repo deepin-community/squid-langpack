@@ -1,0 +1,20 @@
+Source: squid-langpack
+Section: localization
+Priority: optional
+Maintainer: Luigi Gangitano <luigi@debian.org>
+Uploaders: Santiago Garcia Mantinan <manty@debian.org>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Vcs-Git: https://salsa.debian.org/squid-team/pkg-squid-langpack.git
+Vcs-Browser: https://salsa.debian.org/squid-team/pkg-squid-langpack
+Homepage: http://www.squid-cache.org
+
+Package: squid-langpack
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Localized error pages for Squid
+ Squid is a high-performance proxy caching server for web clients, supporting
+ FTP, gopher, and HTTP data objects.
+ .
+ This package contains localized error pages.

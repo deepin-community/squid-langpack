@@ -1,0 +1,247 @@
+squid-langpack (20200403-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Repository, Repository-Browse.
+
+  [ Luigi Gangitano ]
+  * New upstream version 20200403
+
+ -- Luigi Gangitano <luigi@debian.org>  Fri, 24 Apr 2020 21:22:08 +0200
+
+squid-langpack (20191103-1) unstable; urgency=medium
+
+  * New upstream version 20191103
+
+  * debian/control
+    - Fixed Vcs links
+    - Bumped to Standard Version 4.4.1 (no change needed)
+
+ -- Luigi Gangitano <luigi@debian.org>  Sun, 10 Nov 2019 23:36:33 +0100
+
+squid-langpack (20190110-1) unstable; urgency=high
+
+  [ Amos Jeffries <amosjeffries@squid-cache.org> ]
+  * New upstream release
+    - adds Georgian template files
+
+  * debian/control:
+    - Bumped to Standard Version 4.3.0 (no change needed)
+
+ -- Luigi Gangitano <luigi@debian.org>  Mon, 14 Jan 2019 13:55:00 +0100
+
+squid-langpack (20181111-1) unstable; urgency=high
+
+  [ Amos Jeffries <amosjeffries@squid-cache.org> ]
+  * New upstream release
+    - fixes missing content in non-English template files
+
+  * debian/links:
+    - add new Dialect links for Spanish, Pan-Latin American, and Chinese
+
+  * debian/control:
+    - Bumped to Standard Version 4.2.1 (no change needed)
+
+  [ Luigi Gangitano <luigi@debian.org> ]
+  * debian/control:
+    - Added VCS-* tags
+
+ -- Luigi Gangitano <luigi@debian.org>  Fri, 16 Nov 2018 11:55:00 +0100
+
+squid-langpack (20170901-1) unstable; urgency=medium
+
+  [ Amos Jeffries <amosjeffries@squid-cache.org> ]
+  * New upstream release
+
+  * debian/control:
+    - add Multi-Arch:foreign to close multiarch hinter issue
+    - Bumped to Standard Version 4.1.1 (no change needed)
+
+  * Add missing ka templates (Closes: #857152)
+
+  [ Santiago Garcia Mantinan <manty@debian.org> ]
+  * Bump to debhelper compatibility level 10
+  * Switch to dpkg-source 3.0 (quilt) format
+
+ -- Santiago Garcia Mantinan <manty@debian.org>  Thu, 19 Oct 2017 22:43:11 +0200
+
+squid-langpack (20150704-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Luigi Gangitano <luigi@debian.org>  Wed, 29 Jul 2015 18:34:24 +0200
+
+squid-langpack (20140506-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Bumped to Standard Version 3.9.6 (no change needed)
+
+ -- Luigi Gangitano <luigi@debian.org>  Mon, 20 Oct 2014 13:32:08 +0200
+
+squid-langpack (20121005-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Bumped to Standard Version 3.9.4 (no change needed)
+
+ -- Luigi Gangitano <luigi@debian.org>  Sat, 20 Apr 2013 19:41:10 +0200
+
+squid-langpack (20120616-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Bumped to Standard Version 3.9.2 (no change needed)
+
+ -- Luigi Gangitano <luigi@debian.org>  Mon, 18 Jun 2012 15:04:16 +0200
+
+squid-langpack (20111114-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/rules
+    - Added missing targets, to make lintian happy
+
+ -- Luigi Gangitano <luigi@debian.org>  Mon, 26 Dec 2011 22:01:25 +0100
+
+squid-langpack (20110902-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Luigi Gangitano <luigi@debian.org>  Sun, 04 Sep 2011 11:15:05 +0200
+
+squid-langpack (20110707-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Bumped to Standard Version 3.9.2 (no change needed)
+
+ -- Luigi Gangitano <luigi@debian.org>  Sat, 09 Jul 2011 18:22:57 +0200
+
+squid-langpack (20110317-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Luigi Gangitano <luigi@debian.org>  Mon, 11 Apr 2011 19:03:33 +0200
+
+squid-langpack (20110214-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Bumped to Standard Version 3.9.1 (no change needed)
+
+ -- Luigi Gangitano <luigi@debian.org>  Tue, 15 Feb 2011 00:43:14 +0100
+
+squid-langpack (20100628-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Bumped to Standard Version 3.9.0 (no change needed)
+
+ -- Luigi Gangitano <luigi@debian.org>  Sun, 04 Jul 2010 21:06:35 +0200
+
+squid-langpack (20100527-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Luigi Gangitano <luigi@debian.org>  Mon, 07 Jun 2010 01:26:58 +0200
+
+squid-langpack (20100323-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Luigi Gangitano <luigi@debian.org>  Sun, 28 Mar 2010 15:47:17 +0200
+
+squid-langpack (20100320-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Luigi Gangitano <luigi@debian.org>  Tue, 23 Mar 2010 09:20:00 +0100
+
+squid-langpack (20100310-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/{links,squid-langpack-install}
+    - Removed references to sr directory, which has been deleted upstream
+
+ -- Luigi Gangitano <luigi@debian.org>  Fri, 12 Mar 2010 14:43:41 +0100
+
+squid-langpack (20100213-1) unstable; urgency=low
+
+  * New upstream release
+    - Fixes htmlencoding of tags (Closes: #571195)
+
+  * debian/control
+    - Bumped Standard-Version to 3.8.4 (no change needed)
+
+ -- Luigi Gangitano <luigi@debian.org>  Wed, 24 Feb 2010 09:56:30 +0100
+
+squid-langpack (20100205-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Luigi Gangitano <luigi@debian.org>  Mon, 08 Feb 2010 12:52:56 +0100
+
+squid-langpack (20100111-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Luigi Gangitano <luigi@debian.org>  Tue, 12 Jan 2010 09:18:58 +0100
+
+squid-langpack (20091005-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Luigi Gangitano <luigi@debian.org>  Tue, 20 Oct 2009 12:30:26 +0200
+
+squid-langpack (20090921-2) unstable; urgency=low
+
+  * debian/changelog
+    - Updated copyright to match upstream version
+    - Reference directly the download URL
+
+ -- Luigi Gangitano <luigi@debian.org>  Fri, 25 Sep 2009 22:46:22 +0200
+
+squid-langpack (20090921-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Luigi Gangitano <luigi@debian.org>  Thu, 24 Sep 2009 14:41:29 +0200
+
+squid-langpack (20090915-2) unstable; urgency=low
+
+  * debian/control
+    - Fixed archive section
+    - Bumped Standard-Version to 3.8.3, no change needed
+
+  * debian/rules
+    - Added missing and empty binary-arch target
+
+ -- Luigi Gangitano <luigi@debian.org>  Sun, 20 Sep 2009 01:22:11 +0200
+
+squid-langpack (20090915-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/{generate-linkfile.sh,links}
+    - Added links for ISO aliases and Traditional languages (Closes: #538226)
+
+  * debian/watch
+    - Added watch file
+
+ -- Luigi Gangitano <luigi@debian.org>  Sun, 20 Sep 2009 00:58:44 +0200
+
+squid-langpack (3.HEAD.20090706-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Luigi Gangitano <luigi@debian.org>  Tue, 07 Jul 2009 01:08:04 +0200
+
+squid-langpack (3.HEAD.20090511-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Luigi Gangitano <luigi@debian.org>  Tue, 12 May 2009 03:51:18 +0200
